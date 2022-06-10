@@ -38,5 +38,6 @@ def run():
                           columns=['Latest ' + str(number_of_tweets) + ' Tweets' + ' on ' + search_words, 'sentiment'])
         st.write(df)
 
-    if __name__ == '__main__':
-        run()
+
+if __name__ == '__main__':
+    run()
